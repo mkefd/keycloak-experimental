@@ -35,9 +35,9 @@ public class MagicLinkFormAuthenticatorFactory implements AuthenticatorFactory {
     public static final String ID = "magic-form";
 
     private static final AuthenticationExecutionModel.Requirement[] REQUIREMENT_CHOICES = {
-        AuthenticationExecutionModel.Requirement.REQUIRED,
-        AuthenticationExecutionModel.Requirement.OPTIONAL,
-        AuthenticationExecutionModel.Requirement.DISABLED
+            AuthenticationExecutionModel.Requirement.REQUIRED,
+            AuthenticationExecutionModel.Requirement.ALTERNATIVE,
+            AuthenticationExecutionModel.Requirement.DISABLED
     };
 
     @Override
